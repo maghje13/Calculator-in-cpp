@@ -6,3 +6,4 @@ Calculator.o: Calculator.cpp
   @g++ -c Calculator.cpp
 clean:
   @echo "Cleaning up"
+  rm Calculator.o
